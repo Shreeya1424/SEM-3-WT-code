@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Structure</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        div{
+            float: left;
+        }
+        .main{
+            width: 100%;
+            background-color: gray;
+            padding: 20px;
+        }
+        .header{
+            background-color: #2ebf0d;
+            height: 70px;
+            width: 100%;
+            padding: 10px;
+        }
+        .mainContent{
+            background-color:#1c261a ;
+            padding: 10px;
+            width: 100%;
+        }
+        .footer{
+            background-color: black;
+            height: 50px;
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            padding: 10px;
+        }
+        .logo{
+            width: 100px;
+        }
+        .logoImg{
+            width: 100px;
+        }
+        .menu{
+            font-size: 35px;
+            padding-left: 10px;
+            padding-right: 10px;
+            float: right;
+        }
+        .sidebar{
+            width: 20%;
+            height: 500px;
+            background-color: red;
+            list-style: none;
+        }
+        .content{
+            width: 79%;
+            height: 500px;
+            background-color: yellow;
+            margin-left: 1%;
+        }
+        .sideMenu{
+            list-style-type: none;
+        }
+        .menuLink{
+            color: black;
+            text-decoration: none;
+            font-size: 35px;
+        }
+        .stHeading{
+            text-align: center;
+        }
+        .sImg{
+            border-radius: 20px;
+        }
+        .student{
+            width: 30%;
+            background-color: #10dec2;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        .m-5{
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <img src="C:\Users\ayush\Pictures\Screenshots\Screenshot 2024-01-15 103823.png" class="logoImg">
+            </div>
+            <div class="menu">
+                Contact
+            </div>
+            <div class="menu">
+                Blog
+            </div>
+            <div class="menu">
+                Services
+            </div>
+            <div class="menu">
+                Product
+            </div>
+            <div class="menu">
+                About
+            </div>
+            <div class="menu">
+                Home
+            </div>
+            
+        </div>
+        <div class="mainContent">
+            <div class="sidebar">
+                <ul class="sideMenu">
+                    <li><a class="menuLink" href="#">Home</a></li>
+                    <li><a class="menuLink" href="#">About</a></li>
+                    <li><a class="menuLink" href="#">Product</a></li>
+                    <li><a class="menuLink" href="#">Services</a></li>
+                    <li><a class="menuLink" href="#">Blog</a></li>
+                    <li><a class="menuLink" href="#">Content</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1 class="stHeading">Student Details</h1>
+                <div class="student">
+                    <img src="" class="sImg">
+                    <h4>Student Name</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi blanditiis, sequi autem, at magnam quam qui rem error natus voluptate dignissimos, ipsum amet fugit dicta in. Porro quod quae voluptates.</p>
+                
+                </div>
+                <div class="student">
+                    <img src="" class="sImg">
+                    <h4>Student Name</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi blanditiis, sequi autem, at magnam quam qui rem error natus voluptate dignissimos, ipsum amet fugit dicta in. Porro quod quae voluptates.</p>
+                
+                </div>
+                <div class="student">
+                    <img src="" class="sImg">
+                    <h4>Student Name</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi blanditiis, sequi autem, at magnam quam qui rem error natus voluptate dignissimos, ipsum amet fugit dicta in. Porro quod quae voluptates.</p>
+                
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            Footer
+        </div>
+    </div>
+</body>
+</html>
